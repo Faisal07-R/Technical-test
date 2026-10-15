@@ -1,0 +1,28 @@
+{
+  "credentials": {
+    "valid": {
+      "username": "Admin",
+      "password": "admin123"
+    },
+    "invalid": {
+      "username": "AdminSalah",
+      "password": "admin123"
+    },
+    "note_invalid": "Username OrangeHRM bersifat case-insensitive, sehingga username 'admin' tetap berhasil login. Gunakan username yang benar-benar tidak terdaftar agar muncul 'Invalid credentials'.",
+    "wrong_username": {
+      "username": "AdminSalah",
+      "password": "admin123"
+    },
+    "wrong_password": {
+      "username": "Admin",
+      "password": "salahpassword"
+    }
+  },
+  "search": {
+    "existing_employee_name": "Peter"
+  },
+  "delete": {
+    "employee_first_name": "Playwright",
+    "employee_last_name": "Tester"
+  }
+}
